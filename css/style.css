@@ -243,6 +243,12 @@ a:hover {
 	border-radius: 0.5rem;   /* 8px rounded corners */
   }
 
+/* Modifier for logos or non-square images (prevents cropping) */
+.avatar--contain {
+	object-fit: contain;
+	background-color: transparent;
+}
+
 /* Theme System
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Light theme is default above */
